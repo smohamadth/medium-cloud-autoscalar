@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon main.js",
-    "start": "node main.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "build": "npm install"
   },
   "author": "Mohamad Ghaseminejad",
