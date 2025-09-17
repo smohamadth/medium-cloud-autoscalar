@@ -108,7 +108,7 @@ setInterval(() => {
 }, 30 * 1000);
 
 // ===== Express Server =====
-module.exports = async function(req, res) {
+module.exports = async function({req, res}) {
   const status = {};
   Object.keys(SERVICES).forEach((service) => {
     const state = serviceState[service];
