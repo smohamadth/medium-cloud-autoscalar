@@ -118,6 +118,8 @@ module.exports = async function({req, res}) {
     };
   });
 
+  console.log(`Multi-service auto-scaler running on http://localhost:`)
+
   return res.json({
     status: "running",
     services: status,
