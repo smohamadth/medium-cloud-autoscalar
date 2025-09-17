@@ -125,7 +125,3 @@ module.exports = async function(req, res) {
     cooldownMinutes: COOLDOWN_MS / 60000,
   });
 };
-
-app.listen(PORT, () => {
-  console.log(`Multi-service auto-scaler running on http://localhost:${PORT}`);
-});
