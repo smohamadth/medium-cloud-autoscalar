@@ -118,7 +118,7 @@ module.exports = async function({req, res}) {
     };
   });
 
-  res.json({
+  return res.json({
     status: "running",
     services: status,
     thresholds: { up: CPU_THRESHOLD_UP, down: CPU_THRESHOLD_DOWN },
